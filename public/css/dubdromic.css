@@ -1,0 +1,37 @@
+.masthead {
+  margin-bottom: 2rem;
+}
+.masthead-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.masthead-menu li {
+  float: left;
+  padding: 0 10px 0 0;
+  font-size: 16px;
+}
+.masthead-menu li a {
+  color: #7D7979;
+}
+
+.posts .post-title, .post .post-title {
+  margin-bottom: 0;
+}
+
+.posts span {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.post ul li small {
+  font-size: 0.8rem;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+time {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}

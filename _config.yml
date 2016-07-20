@@ -1,0 +1,11 @@
+# Permalinks
+permalink:        :title
+
+# Setup
+title:            dubdromic
+url:              http://dubdromic.com
+baseurl:          /
+author:
+  name:           Corin Schedler
+  url:            https://dubdromic.com
+  email:          corin@dubdromic.com

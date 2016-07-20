@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h3 class="post-title">{{ page.title }}</h3>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">
+    {{ page.date | date_to_string }}
+    {% if page.original_date %}
+      <small>(Originally published: {{ page.original_date | date_to_string }})</small>
+    {% endif %}
+  </time>
+  {{ content }}
+</article>
