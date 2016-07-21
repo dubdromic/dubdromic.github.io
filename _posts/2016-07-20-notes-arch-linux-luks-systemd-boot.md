@@ -13,7 +13,7 @@ This assumes a few things:
 * /boot is also your ESP. (I know this is not great; I only care about my data being encrypted, not the kernel or initramfs.)
 * You don't want to use UUID. There's no reason you can't; I just find it annoying.
 
-```
+{% highlight shell %}
 # Set up your wifi (or use dhcpcd for a wired connection)
 wifi-menu
 
@@ -98,4 +98,4 @@ vim /boot/loader/entries/arch.conf
 exit
 unmount -R /mnt
 reboot
-```
+{% endhighlight %}
